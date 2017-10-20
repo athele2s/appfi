@@ -4,11 +4,11 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class PTest {
-	Project example;
+	Project2 example;
 	
 	 @Before
 	  public void setUp(){
-		 example = new Project(new String[][]{{"A", "B"}, {"B", "C"}});
+		 example = new Project2(new String[][]{{"A", "B"}, {"B", "C"}});
 	 }
 
 	@Test
