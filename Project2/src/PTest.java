@@ -8,7 +8,7 @@ public class PTest {
 	
 	 @Before
 	  public void setUp(){
-		 example = new Project2(new String[][]{{"A", "B"}, {"B", "C"}});
+		 example = new Project2(new String[][]{{"A", "B"}, {"F", "C"}});
 	 }
 
 	@Test
